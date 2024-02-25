@@ -15,3 +15,6 @@ table,thead,tr,td{
   margin:10px;
   text-align: center;
 }
+table,th{
+  padding-left:40px;
+}
