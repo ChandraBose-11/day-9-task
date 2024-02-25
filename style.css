@@ -1,0 +1,17 @@
+body{
+    margin:20px;
+    padding:20px;
+    background-color:whitesmoke;
+}
+.stars{
+    color: red;
+    font-size:25px;
+}
+.fa-star{
+  color:orange;
+}
+table,thead,tr,td{
+  padding-left:30px;
+  margin:10px;
+  text-align: center;
+}

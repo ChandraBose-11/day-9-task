@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="text"><b>Name</b><span class="stars">*</span></label><br>
+    <label for="text">First</label><input type="text"><label for="text">Last</label><input type="text"><br>
+    <label for="text"><b>Email</b><span class="stars">*</span></label><br>
+    <input type="text" name="email" id="email"><br>
+    <label for="text"><b>Your Experience</b><span class="stars">*</span></label><br>
+    <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true" ></i><i class="fa fa-star" aria-hidden="true"></i>
+    <p>Overall,how would you rate your Experience with us</p>
+    <br>
+    <b>How statisfied are you with<span class="stars">*</span></b><br>
+    <table>
+        <thead>
+            <th></th>
+            <th>Very unsatisfied</th>
+            <th>Unsatisfied</th>
+            <th>Neutral</th>
+            <th>Satisfied</th>
+            <th>Very Satisfied</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p>Purchase</p></td>
+                <td><input type="radio" name="button1" placeholder="Very unsatisfied"></td>
+                <td><input type="radio" name="button1" placeholder=" Unsatified"></td>
+                <td><input type="radio" name="button1" placeholder="Neutral"></td>
+                <td><input type="radio" name="button1" placeholder=" Satisfied"></td>
+                <td><input type="radio" name="button1" placeholder="Very satisfied"></td>
+            </tr>
+            <tr>
+                <td><p>Service</p></td>
+                <td><input type="radio" name="button2" placeholder="Very unsatisfied"></td>
+                <td><input type="radio" name="button2" placeholder=" Unsatified"></td>
+                <td><input type="radio" name="button2" placeholder="Neutral"></td>
+                <td><input type="radio" name="button2" placeholder=" Satisfied"></td>
+                <td><input type="radio" name="button2" placeholder="Very satisfied"></td>
+            </tr>
+            <tr>
+                <td><p>Company Overall</p></td>
+                <td><input type="radio" name="button3" placeholder="Very unsatisfied"></td>
+                <td><input type="radio" name="button3" placeholder=" Unsatified"></td>
+                <td><input type="radio" name="button3" placeholder="Neutral"></td>
+                <td><input type="radio" name="button3" placeholder=" Satisfied"></td>
+                <td><input type="radio" name="button3" placeholder="Very satisfied"></td>
+            </tr>
+        </tbody>
+    </table>
+    <b>How likely are you to<span class="stars">*</span></b><br>
+    <table>
+        <thead>
+            <th></th>
+            <th>Very Unlikely</th>
+            <th>Unlikely</th>
+            <th>Neutral</th>
+            <th>Likely</th>
+            <th>Very Likely</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p>Buy from us again</p></td>
+                <td><input type="radio" name="button1" placeholder="Very Unlikely"></td>
+                <td><input type="radio" name="button1" placeholder=" Unlikely"></td>
+                <td><input type="radio" name="button1"placeholder="Neutral"></td>
+                <td><input type="radio" name="button1" placeholder="Likely"></td>
+                <td><input type="radio" name="button1" placeholder="Very Likely"></td>
+            </tr>
+            <tr>
+                <td><p>Recommend our
+                    product to others</p></td>
+                <td><input type="radio" name="button2" placeholder="Very Unlikely"></td>
+                <td><input type="radio" name="button2" placeholder=" Unlikely"></td>
+                <td><input type="radio" name="button2"placeholder="Neutral"></td>
+                <td><input type="radio" name="button2" placeholder="Likely"></td>
+                <td><input type="radio" name="button2" placeholder="Very Likely"></td>
+            </tr>
+            <tr>
+                <td><p>Recommend our
+                    company to others</p></td>
+                <td><input type="radio" name="button3" placeholder="Very Unlikely"></td>
+                <td><input type="radio" name="button3" placeholder=" Unlikely"></td>
+                <td><input type="radio" name="button3"placeholder="Neutral"></td>
+                <td><input type="radio" name="button3" placeholder="Likely"></td>
+                <td><input type="radio" name="button3" placeholder="Very Likely"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <b>Additional comments or suggestion</b>
+    <br>
+    <textarea rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</body>
+</html>
